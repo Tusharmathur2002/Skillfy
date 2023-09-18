@@ -19,7 +19,7 @@ export default function Cardsec() {
                                 </h4>
                                 <p className="card-more-content">Teach what you love.Coursector gives you the tools to
                                     create a course.</p>
-                                <a href="#" className="card-button">Apply as teacher</a>
+                                <a href="#login.html" className="card-button">Apply as teacher</a>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Cardsec() {
                                 </h4>
                                 <p className="card-more-content">Get unlimited acces to 3000+ of Coursector's top courses
                                     for your team</p>
-                                <a href="#" className="card-button">Get skillfy for business</a>
+                                <a href="#login.html" className="card-button">Get skillfy for business</a>
                             </div>
                         </div>
                     </div>

@@ -276,6 +276,17 @@ animation: headerSticky 0.3s forwards;
   position: relative;
   right: 93px;
 }
+.card-price{
+  position: relative;
+  left: 37px;
+  bottom: 25px;
+}
+.card-real-price{
+  position: relative;
+  left: 110px;
+  bottom: 48px;
+  color: orange;
+}
 .carousel-control-prev {
   left: 0;
   top: 55px;

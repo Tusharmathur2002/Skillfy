@@ -19,7 +19,7 @@ export default function Coursesec() {
           <h5>Learn Python Programming Beginner</h5>
           <div className="card-author">Nicole Brown</div>
                         <div className="card-price" style={{textDecorationLine: 'line-through'}}>$100.00</div>
-                        <span>$70.00</span>
+                        <span className='card-real-price'>$70.00</span>
                         
         </Carousel.Caption>
       </Carousel.Item>
@@ -33,7 +33,7 @@ export default function Coursesec() {
           <h5>Statistics Data Science and Buisness Analysis</h5>
           <div className="card-author">Nicole Brown</div>
                         <div className="card-price" style={{textDecorationLine: 'line-through'}}>$100.00</div>
-                        <span>$70.00</span>
+                        <span className='card-real-price'>$70.00</span>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -47,7 +47,7 @@ export default function Coursesec() {
         
           <div className="card-author">Nicole Brown</div>
                         <div className="card-price" style={{textDecorationLine: 'line-through'}}>$100.00</div>
-                        <span>$70.00</span>
+                        <span className='card-real-price'>$70.00</span>
           
         </Carousel.Caption>
       </Carousel.Item>
