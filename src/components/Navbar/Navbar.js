@@ -21,7 +21,7 @@ export default function Navbar() {
                <i className="fa-solid fa-cart-shopping" style={{color: "#0a0a0b"}}></i>
            </div>
            <div className="register-icon">
-               <a href="login page/login.html">Register</a>
+               <a href="https://www.google.com" target='__blank'>Register</a>
            </div>
        </nav>
     </div>

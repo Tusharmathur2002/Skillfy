@@ -18,7 +18,15 @@ nav {
   z-index: 8;
   padding: 9px 42px;
   /* transition: 0.5s; */
-  position: absolute;
+  position: absolute;  
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+nav.scroll {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 /* nav .sticky {
@@ -241,15 +249,12 @@ animation: headerSticky 0.3s forwards;
 .carousel-item {
   position: relative;
   display: none;
-  float: left;
   width: 100%;
-  top: 77px;
+  padding-top: 28.25vh;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
 }
-
 .w-100 {
   width: 25%!important;
   position: relative;
@@ -257,24 +262,30 @@ animation: headerSticky 0.3s forwards;
 }
 .carousel img{
   position: relative;
-  left: 608px;
-  top: 67px;
   width: 20%;
+  align-items: center;
+  display: flex;
+  margin: auto;
 }
 .carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  position: relative;
   color: #fff;
   text-align: center;
-  top: 269px;
+  margin: auto;
+}
+.carousel-caption h5{
+  position: relative;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  width: 52%;
 }
 .card-author{
   position: relative;
-  right: 93px;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  width: 46%;
 }
 .card-price{
   position: relative;
