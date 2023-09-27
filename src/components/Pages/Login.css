@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main-container{
+    background: url(login.avif) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container  #main-container{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+  
+  }
+  
+  .container h1 #main-container{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 4px solid purple;
+    margin-bottom: 9px;
+    padding: 2px 0px;
+  }
+  
+  .box  {
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 20px 0px;
+  }
+  
+  .box input {
+    background: none;
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 0px;
+    font-size: 20px;
+  }
+  
+  
+  .box i {
+    width: 25px;
+    text-align: center;
+  }
+  
+  .btn1 #main-container {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 21px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    font-size: 18px;
+    background: none;
+  }
+  
+  .btn1:hover #main-container{
+    color: purple;
+    background-color: white;
+  }
