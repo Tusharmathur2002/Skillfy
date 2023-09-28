@@ -1,13 +1,9 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 
-
-
 export default function Navbar() {
-    let navigate = useNavigate(); 
-  const routeChange = () =>{ 
-    navigate('/Register');
-  }
+    let navigate = useNavigate();
+
     return (
         <div>
             <nav>
@@ -27,7 +23,7 @@ export default function Navbar() {
                     <i className="fa-solid fa-cart-shopping" style={{ color: "#0a0a0b" }}></i>
                 </div>
                 <div className="register-icon">
-                    <button color="primary" onClick={routeChange} className="px-4 btn btn-danger mt-3"> Register</button>
+                    <button color="primary" onClick={() => navigate('/Register')} className="px-4 btn btn-danger mt-3"> Register</button>
                 </div>
             </nav>
         </div>

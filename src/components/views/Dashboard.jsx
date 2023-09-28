@@ -13,15 +13,15 @@ import Footer from '../Footer';
 export default function Dashboard() {
   return (
     <div>
-           <Navbar/>
-       <Heropage/>
-      <Coursesec/>
-      <Plaformdes/>
-      <Moredesc/>
-      <Testimonial/>
-      <Sponsor/>
-      <Cardsec/>
-      <Footer/>
+      <Navbar />
+      <Heropage />
+      <Coursesec />
+      <Plaformdes />
+      <Moredesc />
+      <Testimonial />
+      <Sponsor />
+      <Cardsec />
+      <Footer />
     </div>
   )
 }
